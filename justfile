@@ -7,3 +7,6 @@ new CONTEST PROBLEM:
 test:
     cd {{invocation_directory()}};cargo clean -p base
     cd {{invocation_directory()}};cargo test
+cp:
+	# mac only
+	cat {{invocation_directory()}}/src/main.rs | pbcopy
