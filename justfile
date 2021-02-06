@@ -1,6 +1,6 @@
 usage:
 	@just -l
-init-project CONTEST PROBLEM:
+new CONTEST PROBLEM:
     mkdir -p {{CONTEST}}
     rsync -av base/ {{CONTEST}}/{{CONTEST}}-{{PROBLEM}} --exclude target --exclude .git
     ln -s `PWD`/base/target ./{{CONTEST}}/{{CONTEST}}-{{PROBLEM}}/target
