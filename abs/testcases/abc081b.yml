@@ -1,0 +1,29 @@
+---
+type: Batch
+
+timelimit: 2s
+
+match: Lines
+
+
+cases:
+  - name: sample1
+    
+    in: "3\n8 12 40\n"
+    
+    out: "2\n"
+    
+  - name: sample2
+    
+    in: "4\n5 6 8 10\n"
+    
+    out: "0\n"
+    
+  - name: sample3
+    
+    in: "6\n382253568 723152896 37802240 379425024 404894720 471526144\n"
+    
+    out: "8\n"
+    
+
+extend: []

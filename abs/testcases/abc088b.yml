@@ -1,0 +1,29 @@
+---
+type: Batch
+
+timelimit: 2s
+
+match: Lines
+
+
+cases:
+  - name: sample1
+    
+    in: "2\n3 1\n"
+    
+    out: "2\n"
+    
+  - name: sample2
+    
+    in: "3\n2 7 4\n"
+    
+    out: "5\n"
+    
+  - name: sample3
+    
+    in: "4\n20 18 2 18\n"
+    
+    out: "18\n"
+    
+
+extend: []

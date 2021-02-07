@@ -1,0 +1,23 @@
+---
+type: Batch
+
+timelimit: 2s
+
+match: Lines
+
+
+cases:
+  - name: sample1
+    
+    in: "3 4\n"
+    
+    out: "Even\n"
+    
+  - name: sample2
+    
+    in: "1 21\n"
+    
+    out: "Odd\n"
+    
+
+extend: []
